@@ -22,7 +22,7 @@ button {
     height: 50px;
     background-color: #5C5C99;
     color: white;
-    margin: 5px 5px;
+    margin: 5px 2px;
 }
 
 .calculator-container {
@@ -36,6 +36,17 @@ button {
     flex-direction: column;
     align-items: center;
     width: 400px;
+}
+
+p {
+    border-width: 5px 5px 0px 5px;
+    border-style: solid;
+    border-color: #292966;
+    min-width: 100%;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 .displays {
@@ -69,5 +80,6 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     height: 350px;
-
+    box-sizing: border-box;
+    border: 5px solid #292966;
 }
