@@ -3,7 +3,10 @@ const secondaryDisplay = document.querySelector(".secondary-display");
 const inputButtons = document.querySelectorAll(".input-numbers");
 
 const allClearButton = document.querySelector("#all-clear");
-allClearButton.addEventListener("click", allClear);
+allClearButton.addEventListener("click", (e)=>{
+    allClear();
+    allClearSecondary();
+});
 
 let firstValue, secondValue;
 let firstOperator;

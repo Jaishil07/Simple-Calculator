@@ -54,7 +54,7 @@ button {
 
 .primary-display {
     height: 75px;
-    background-color: white;
+    /* background-color: white; */
     text-align: right;
     font-size: 42px;
     font-family: 'Calculator', sans-serif;
