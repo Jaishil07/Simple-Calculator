@@ -49,6 +49,7 @@ button {
 
 .secondary-display {
     height: 25px;
+    text-align: right;
 }
 
 .primary-display {
