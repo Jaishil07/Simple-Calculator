@@ -1,0 +1,54 @@
+/*  Color Theme: #CCCCFF 
+    #A3A3CC
+    #5C5C99
+    #292966
+*/
+
+
+body {
+    background-color: #CCCCFF;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 1.6; */
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    width: 80px;
+    height: 50px;
+    background-color: #5C5C99;
+    color: white;
+    margin: 5px 5px;
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: #A3A3CC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.displays {
+    width: 390px;
+    height: 100px;
+    background-color: #B6F599;
+    border: 5px solid black;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 350px;
+    
+}
